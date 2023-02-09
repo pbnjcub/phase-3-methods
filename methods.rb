@@ -6,9 +6,110 @@
 # function greetProgrammer() {
 #   console.log("Hello, programmer!");
 # }
+
 def greet_programmer
     puts "Hello, programmer!"
 end
+
+
+def greet(name)
+    puts "Hello, #{name}!"
+end
+
+def greet_with_default(name = "programmer")
+    puts "Hello, #{name}!"
+end
+
+def add(num_one, num_two)
+    num_one + num_two
+end
+
+def halve(int)
+    if int.class == Integer
+    int / 2
+    else
+        nil
+    end
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# /*
+#   You should be able to call this function with no arguments and see its output in the terminal:
+#   greetProgrammer();
+#   => "Hello, programmer!"
+# */
+# function greetProgrammer() {
+#   console.log("Hello, programmer!");
+# }
+# def greet_programmer
+#     puts "Hello, programmer!"
+# end
 
 # /*
 #   You should be able to call this function with one argument and see its output in the terminal:
@@ -18,16 +119,16 @@ end
 # function greet(name) {
 #   console.log(`Hello, ${name}!`);
 # }
-def greet(name)
-    puts "Hello, #{name}!"
-end
+# def greet(name)
+#     puts "Hello, #{name}!"
+# end
 # /*
 #   You should be able to call this function with no arguments and see its output in the terminal:
 #   greetWithDefault();
 #   => "Hello, programmer!"
-def greet_with_default(name = "programmer")
-    puts "Hello, #{name}!"
-end
+# def greet_with_default(name = "programmer")
+#     puts "Hello, #{name}!"
+# end
 #   You should also be able to call this function with one argument and see its output in the terminal:
 #   greetWithDefault("Sunny");
 #   => "Hello, Sunny!"
@@ -45,21 +146,21 @@ end
 # function add(num1, num2) {
 #   return num1 + num2;
 # }
-def add(num1, num2)
-    num1 + num2
-end
+# def add(num1, num2)
+#     num1 + num2
+# end
 # /*
 #   You should be able to call this function with two arguments and get back its return value:
 #   const result = halve(4);
 #   console.log(result);
 #   => 2
-def halve(num1)
-    if num1.class == Integer
-        num1 / 2
-    else
-        nil
-    end
-end
+# def halve(num1)
+#     if num1.class == Integer
+#         num1 / 2
+#     else
+#         nil
+#     end
+# end
 #   If the function is called with an argument that isn't a number, it should return null:
 #   const result = halve("two")
 #   => null
